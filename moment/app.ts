@@ -1,7 +1,7 @@
 import 'moment';
 
-import {Component, Injectable, NgModule} from '@angular/core';
-import {BrowserModule} from '@angular/platform-browser';
+import { Component, Injectable, NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 import * as moment_type from 'moment';
 
 declare var moment: typeof moment_type;
