@@ -1,6 +1,7 @@
 {
     "extends": "../tsconfig.base",
     "angularCompilerOptions": {
+        "genDir": "aot",
         "annotateForClosureCompiler": true
     },
     "compilerOptions": {
