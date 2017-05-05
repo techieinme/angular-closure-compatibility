@@ -1,16 +1,12 @@
-import 'moment';
-
 import { Component, Injectable, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import * as moment_type from 'moment';
 
-declare var moment: typeof moment_type;
+import * as moment from 'moment-adapter';
 
 @Component({
   selector: 'hello',
   template: `<div>{{message}}</div>`,
 })
-@Injectable()
 export class Hello {
   message: string;
   constructor() {
