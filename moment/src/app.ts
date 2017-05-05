@@ -1,7 +1,7 @@
 import { Component, Injectable, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import * as moment from 'moment-adapter';
+import moment from '../adapter-src/moment-adapter';
 
 @Component({
   selector: 'hello',
